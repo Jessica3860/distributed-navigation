@@ -27,6 +27,7 @@ header {
   align-items: center;
   background-color: #e2e2e2;
   flex-wrap: wrap;
+  width: auto;
 }
 
 /* --------=nav--------- */
@@ -36,7 +37,6 @@ nav ul {
   display: flex;
   flex-direction: row;
   padding-right: 1em;
-  justify-content:
 }
 
 nav a {
@@ -76,11 +76,13 @@ header h1 {
   font-style: normal;
   text-align: left;
   justify-content: flex-end;
-  padding-left: 1rem;
+  align-items: flex-start;
+  margin: 1rem;
 }
 
 header p {
   justify-content: center;
+  padding: 1rem;
 }
 
 /*
